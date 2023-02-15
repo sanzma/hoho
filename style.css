@@ -1,0 +1,55 @@
+body{
+    box-sizing: border-box;
+    background-color: blueviolet;
+}
+.cont{
+    width: 300px;
+    height: 400px;
+    margin-left: 100px;
+    transition: 1s ;
+    background-color: black;
+    position: relative;
+    margin-top: 100px;
+   
+   
+}
+h1{
+    color: rgb(245, 238, 238);
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 200px;
+    transition: 3s;
+
+}
+.cont:hover h1{
+    opacity: 0;
+    transition: 0.5s;
+
+}
+
+.cont:hover {
+   transform: perspective(500px) rotatey(180deg);
+    
+}
+img{
+    width: 300px;
+    height: 400px;
+    opacity: 0;
+    transition: 0.5s;
+    object-fit: cover;
+}
+img:hover{
+    opacity: 100;
+    transition: 3s;
+} 
+
+.box{
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 150px;
+    border:  solid rgba(0, 0, 255, 0)  50px;
+    box-sizing: border-box;
+    border-bottom: solid  50px;
+ 
+}
